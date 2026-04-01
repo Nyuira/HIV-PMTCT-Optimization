@@ -3,16 +3,16 @@ Here's the **complete README.md** content - copy and paste this entire block:
 ```markdown
 # HIV Positivity Rate Forecasting & PMTCT Resource Optimization in Kenya
 
-## 📌 Project Overview
+##  Project Overview
 This project aims to forecast HIV positivity rates in Maternal and Child Health (MCH) services across Kenyan facilities and optimize resource allocation for Prevention of Mother-to-Child Transmission (PMTCT) interventions. Using historical MOH 731 data (2020-2024), I predict trends and provide actionable insights to help Kenya achieve its <5% MTCT target by 2030.
 
-## 🎯 Objectives
+##  Objectives
 1. **Predict** HIV positivity rates with MAE ≤ 2% using XGBoost and Prophet
 2. **Analyze** trends in MCH HIV metrics to identify high-risk facilities
 3. **Optimize** resource allocation (ART, testing kits) to reduce projected positives by ≥20%
 4. **Deploy** interactive dashboard (Streamlit) and API (FastAPI) for stakeholder use
 
-## 📊 Dataset
+##  Dataset
 - **Source**: MOH 731 reports (NSDCC, KHIS)
 - **Files**: 
   - `mch proportion.csv`: 3,553 facility-level records (8 features)
@@ -21,7 +21,7 @@ This project aims to forecast HIV positivity rates in Maternal and Child Health 
 - **Time Period**: 2020-2024
 - **Geographic Coverage**: Kenyan counties and facilities
 
-## 🏗️ Project Structure
+##  Project Structure
 ```
 HIV-PMTCT-Optimization/
 ├── data/                    # Data directories
@@ -51,7 +51,7 @@ HIV-PMTCT-Optimization/
 └── requirements.txt         # Project dependencies
 ```
 
-## 🚀 Quick Start
+## Quick Start
 ```bash
 # Clone repository
 git clone https://github.com/[your-username]/HIV-PMTCT-Optimization.git
@@ -70,7 +70,7 @@ streamlit run deployment/streamlit_app.py
 uvicorn deployment.fastapi_app:app --reload
 ```
 
-## 📈 Methodology
+##  Methodology
 ### Data Preprocessing
 - Handling missing values using forward fill and interpolation methods
 - Outlier detection using IQR and Z-score methods
@@ -99,13 +99,13 @@ I will implement multiple models for comparison:
 - **Streamlit Dashboard**: Interactive maps showing county-level positivity rates, trend visualizations, and resource optimization recommendations
 - **FastAPI Endpoint**: REST API that accepts facility data and returns predictions and optimization suggestions
 
-## 📊 Expected Outcomes
+##  Expected Outcomes
 1. **Prediction Accuracy**: Achieve MAE ≤2% for HIV positivity rate forecasts
 2. **Resource Optimization**: Identify potential 20% reduction in MTCT through better resource allocation
 3. **High-Risk Identification**: Pinpoint top 10 facilities/counties requiring immediate intervention
 4. **Actionable Dashboard**: User-friendly interface for Ministry of Health planners
 
-## 📝 Notebook Structure
+##  Notebook Structure
 ### 01_data_preprocessing.ipynb
 - Load and inspect raw CSV files
 - Handle missing values and outliers
@@ -137,7 +137,7 @@ I will implement multiple models for comparison:
 - Business insights extraction
 - Recommendations for MoH
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - **Python 3.9+** - Core programming language
 - **Pandas/NumPy** - Data manipulation
 - **Matplotlib/Seaborn/Plotly** - Data visualization
@@ -159,23 +159,23 @@ MIT License - feel free to use and modify with attribution
 
 ## 👥 Author
 [Your Name]
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- GitHub: @Nyuira
+- LinkedIn: https://www.linkedin.com/in/peterkanyuira/
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 - **Ministry of Health Kenya** - For making MOH 731 data available
 - **NSDCC (National Syndemic Diseases Control Council)** - For HIV estimates and data portals
 - **KHIS (Kenya Health Information System)** - For data aggregation and reporting
 - **Course Lecturer** - For guidance on predictive and optimization techniques
 - **Technical Mentors** - For support with model development and deployment
 
-## 📞 Contact
+##  Contact
 For questions or collaboration opportunities, please:
 1. Open an issue on GitHub
 2. Reach out via [email/contact method]
 3. Connect on LinkedIn
 
-## ⚠️ Note on Data Privacy
+##  Note on Data Privacy
 The datasets used in this project are publicly available from MOH 731 reports. However:
 - No patient-level data is included
 - All analyses are at facility/county level
@@ -192,7 +192,7 @@ The datasets used in this project are publicly available from MOH 731 reports. H
 - ⬜ Deployment
 - ⬜ Final Presentation
 
-## 📊 Sample Visualizations (To be added)
+##  Sample Visualizations (To be added)
 *[This section will be updated with actual visualizations as the project progresses]*
 
 - County-level HIV positivity heatmaps
@@ -200,7 +200,7 @@ The datasets used in this project are publicly available from MOH 731 reports. H
 - Feature importance charts
 - Resource allocation optimization plots
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 Through this project, I aim to demonstrate:
 1. Proficiency in data preprocessing and feature engineering
 2. Ability to select and tune multiple ML models
@@ -210,7 +210,7 @@ Through this project, I aim to demonstrate:
 
 ---
 
-**⭐ If you find this project useful, please consider starring the repository!**
+** If you find this project useful, please consider starring the repository!**
 ```
 
 This is the complete README with all sections properly formatted. Just copy the entire block above and paste it into your README.md file!
